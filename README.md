@@ -1,74 +1,82 @@
-# Hi, I'm Simon 👋
+<div align="center">
 
-**Software Engineer @ BMW Group** · 📍 Germany
+# Simon Gloël
 
-I build cloud-native, distributed systems - from event-driven backends to the Kubernetes platforms they run on. Passionate about clean architecture, system design, and shipping software that scales.
+Software engineer in Regensburg.<br>
+Technical lead at BMW Group, and in the evenings I build [blitz.cloud](https://blitz.cloud).
 
-🌐 [simongloel.de](https://simongloel.de) · 💼 [LinkedIn](https://www.linkedin.com/in/simongloel)
+<br>
 
----
+[![simongloel.de](https://img.shields.io/badge/simongloel.de-111111?style=for-the-badge&logo=googlechrome&logoColor=white)](https://simongloel.de)&nbsp;[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/simongloel)&nbsp;[![blitz.cloud](https://img.shields.io/badge/blitz.cloud-4F46E5?style=for-the-badge)](https://blitz.cloud)
 
-## 🛠️ Tech Stack
+</div>
 
-### Languages
+<br>
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+At BMW Group I'm the technical lead for software used in production. It's built with Java and TypeScript and runs on Kubernetes in Azure.
 
-### Frameworks
+The rest of my time goes into **blitz.cloud**, a hosting platform on servers in the EU. You give it a GitHub repository, a Docker image or a folder of HTML, and you get an HTTPS address back. Every app runs in its own gVisor sandbox on Kubernetes at Hetzner. About 3,500 people use it, and my own site runs on it too.
 
-![Quarkus](https://img.shields.io/badge/Quarkus-4695EB?style=for-the-badge&logo=quarkus&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
-![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+I'm also studying Information Systems at OTH Regensburg, and I help out as an examiner for the IT apprenticeships at IHK Regensburg.
 
-### Infrastructure & Cloud
+<br>
 
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes_(AKS)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![On-Premise](https://img.shields.io/badge/On--Premise-555555?style=for-the-badge&logo=serverfault&logoColor=white)
+## Things I've built
 
-### Tools & Practices
+<table>
+<tr>
+<td width="170"><a href="https://blitz.cloud"><b>blitz.cloud</b></a></td>
+<td>Hosting for apps, databases and websites in the EU. It has its own MCP server, so Claude, Cursor or VS Code can deploy apps and read logs for you.</td>
+</tr>
+<tr>
+<td width="170"><a href="https://github.com/simongloel/leash"><b>leash</b></a></td>
+<td>Guardrails for LLM output in Java and Quarkus. A reply that doesn&#39;t fit the schema goes back to the model until it does.</td>
+</tr>
+<tr>
+<td width="170"><a href="https://github.com/simongloel/anki-mcp"><b>anki-mcp</b></a></td>
+<td>MCP server that edits an Anki collection and syncs it with AnkiWeb, using Anki&#39;s own library. New cards show up on your phone after the next sync.</td>
+</tr>
+<tr>
+<td width="170"><a href="https://github.com/simongloel/seo-aeo-pass"><b>seo-aeo-pass</b></a></td>
+<td>Agent skill for SEO and visibility in AI answers, built on free first-party data. Runs in Claude Code, Codex, Cursor and Gemini CLI.</td>
+</tr>
+<tr>
+<td width="170"><a href="https://metalltarif.com"><b>metalltarif.com</b></a></td>
+<td>Salary calculator for the IG Metall pay agreements. The payroll tax matches the official BMF test cases to the cent.</td>
+</tr>
+<tr>
+<td width="170"><a href="https://github.com/simongloel/simongloel.de"><b>simongloel.de</b></a></td>
+<td>My personal site. A static Next.js export, a ten-line Dockerfile and no tracking.</td>
+</tr>
+</table>
 
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?style=for-the-badge&logo=mqtt&logoColor=white)
-![REST](https://img.shields.io/badge/REST_APIs-009688?style=for-the-badge&logo=openapiinitiative&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
+<br>
 
-### Architecture
+## Writing
 
-`Distributed Systems` · `Cloud-Native Architecture` · `Event-Driven Architecture` · `System Design`
+- [How this site runs](https://simongloel.de/en/writing/how-this-site-runs/)
+- [Let Claude deploy your app over MCP](https://simongloel.de/en/writing/let-claude-deploy-your-app/)
+- [Deploy a GitHub repository on blitz.cloud](https://simongloel.de/en/writing/deploy-github-repository-on-blitz-cloud/)
+- [Run a Docker image on blitz.cloud](https://simongloel.de/en/writing/deploy-a-docker-image/)
+- [Put a static website online without GitHub](https://simongloel.de/en/writing/put-a-static-website-online/)
 
----
+The same articles are also on the site [in German](https://simongloel.de/de/writing/).
 
-## 📊 GitHub Stats
+<br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=simongloel&theme=tokyonight" alt="Profile details" />
+## What I work with
 
 <p>
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=simongloel&theme=tokyonight" alt="GitHub stats" />
-  <img height="180" src="https://streak-stats.demolab.com?user=simongloel&theme=tokyonight&hide_border=false" alt="GitHub streak" />
+  <img src="https://skillicons.dev/icons?i=java,go,ts,py,spring,hibernate,angular,nextjs,vue&theme=dark&perline=9" alt="Java, Go, TypeScript, Python, Spring, Hibernate, Angular, Next.js, Vue" />
+</p>
+<p>
+  <img src="https://skillicons.dev/icons?i=kubernetes,docker,azure,terraform,githubactions,prometheus,grafana,kafka,postgres,nginx,linux&theme=dark&perline=11" alt="Kubernetes, Docker, Azure, Terraform, GitHub Actions, Prometheus, Grafana, Kafka, PostgreSQL, nginx, Linux" />
 </p>
 
----
+Plus Quarkus, Helm, Argo CD, MQTT and OpenTelemetry, which don't have icons here.
 
-## 📫 Get in Touch
+<br>
 
-- 🌐 Website: [simongloel.de](https://simongloel.de)
-- 💼 LinkedIn: [in/simongloel](https://www.linkedin.com/in/simongloel)
-- 🗣️ Languages: German (native) · English (fluent)
+<div align="center">
+<sub>German or English, both are fine. Say hi on <a href="https://www.linkedin.com/in/simongloel">LinkedIn</a>.</sub>
+</div>
